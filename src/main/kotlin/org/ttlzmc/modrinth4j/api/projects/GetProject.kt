@@ -5,7 +5,7 @@ import org.ttlzmc.modrinth4j.BaseRequestWithPathParameters
 import org.ttlzmc.modrinth4j.enums.Endpoint
 import org.ttlzmc.modrinth4j.parameter.RequestParameter
 import org.ttlzmc.modrinth4j.typed.ModrinthObject
-import org.ttlzmc.modrinth4j.typed.ModrinthProject
+import org.ttlzmc.modrinth4j.api.objects.ModrinthProject
 import org.ttlzmc.modrinth4j.enums.ProjectType
 import java.net.HttpURLConnection
 import java.net.URI

@@ -1,9 +1,11 @@
-package org.ttlzmc.modrinth4j.typed
+package org.ttlzmc.modrinth4j.api.objects
 
 import org.json.JSONObject
 import org.ttlzmc.modrinth4j.api.EnvironmentSupport
 import org.ttlzmc.modrinth4j.enums.Environment
 import org.ttlzmc.modrinth4j.enums.ProjectType
+import org.ttlzmc.modrinth4j.typed.License
+import org.ttlzmc.modrinth4j.typed.ModrinthObject
 
 class ModrinthProject(apiResponse: JSONObject, private val projectType: ProjectType): ModrinthObject(apiResponse) {
     val id = apiResponse.getString("id")
