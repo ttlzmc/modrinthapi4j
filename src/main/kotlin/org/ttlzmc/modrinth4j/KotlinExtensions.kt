@@ -1,0 +1,1 @@
+package org.ttlzmc.modrinth4j
